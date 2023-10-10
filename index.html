@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Converter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./dist/css/main.min.css">
+</head>
+
+<body>
+
+  <div class="wrapper__main">
+
+    <div class="wrapper__boxes">
+
+      <div class="box box__buttons">
+        <div class="box__top">
+          <h2 class="box__top-title">measure</h2>
+        </div>
+        <div class="box__bottom">
+          <button class="btn btn__length">length</button>
+          <button class="btn btn__weight">weight</button>
+          <button class="btn btn__temperature">temperature</button>
+          <button class="btn btn__volume">volume</button>
+        </div>
+      </div>
+
+      <div class="box box__from">
+        <div class="box__top">
+          <h2 class="box__top-title">from</h2>
+        </div>
+        <div class="box__bottom">
+          <div class="radio__wrapper"> <input type="radio" name="from" class="input input__radio" id="meter"><label
+              class="label label__radio">meter</label></div>
+          <div class="radio__wrapper"><input type="radio" name="from" class="input input__radio" id="inch"><label
+              for="inch" class="label label__radio">inch</label></div>
+          <div class="radio__wrapper"><input type="radio" name="from" class="input input__radio" id="foot"><label
+              for="foot" class="label label__radio">foot</label></div>
+          <div class="radio__wrapper"><input type="radio" name="from" class="input input__radio" id="yard"><label
+              for="yard" class="label label__radio">yard</label></div>
+          <div class="radio__wrapper"><input type="radio" name="from" class="input input__radio" id="land-mile"><label
+              for="land-mile" class="label label__radio">land
+              mile</label></div>
+        </div>
+      </div>
+      <div class="box box__to">
+        <div class="box__top">
+          <h2 class="box__top-title">to</h2>
+        </div>
+        <div class="box__bottom">
+          <div class="radio__wrapper"> <input type="radio" name="from" class="input input__radio" id="meter"><label
+              class="label label__radio">meter</label></div>
+          <div class="radio__wrapper"><input type="radio" name="from" class="input input__radio" id="inch"><label
+              for="inch" class="label label__radio">inch</label></div>
+          <div class="radio__wrapper"><input type="radio" name="from" class="input input__radio" id="foot"><label
+              for="foot" class="label label__radio">foot</label></div>
+          <div class="radio__wrapper"><input type="radio" name="from" class="input input__radio" id="yard"><label
+              for="yard" class="label label__radio">yard</label></div>
+          <div class="radio__wrapper"><input type="radio" name="from" class="input input__radio" id="land-mile"><label
+              for="land-mile" class="label label__radio">land
+              mile</label></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="wrapper__result">
+      <button class="btn btn__calculate">calculate</button>
+      <p class="result__p">result<span></span></p>
+    </div>
+
+
+  </div>
+
+</body>
+
+</html>
